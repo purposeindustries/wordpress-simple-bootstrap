@@ -22,7 +22,7 @@ $RECYCLE.BIN/
 codekit-config.json
 bower_components
 node_modules
-style.css
+# style.css
 style.min.css
 fonts
 simple-bootstrap.zip

@@ -1,4 +1,4 @@
-<!doctype html>  
+<!doctype html>
 
 <html <?php language_attributes(); ?>>
 <head>
@@ -8,7 +8,7 @@
 
 	<?php wp_head(); ?>
 </head>
-	
+
 <body <?php body_class(); ?>>
 
 	<div id="content-wrapper">
@@ -16,11 +16,11 @@
 		<header>
 			<nav class="navbar navbar-default navbar-static-top">
 				<div class="container">
-		  
+
 					<div class="navbar-header">
 						<?php if (has_nav_menu("main_nav")): ?>
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-responsive-collapse">
-		    				<span class="sr-only"><?php _e('Navigation', 'default'); ?></span>
+		    				<span class="sr-only"><?php _e('Navigation', 'simple-bootstrap'); ?></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -41,6 +41,6 @@
 				</div>
 			</nav>
 		</header>
-		
+
 		<div id="page-content">
 			<div class="container">
